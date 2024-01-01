@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class DataBase {
 	public static Connection connect( ) throws SQLException {
-		String url = "jdbc:mysql://localhost:3306/tree";
+		String url = "jdbc:mysql://localhost:3306/employee";
 		try {
 			Connection con = DriverManager.getConnection(url, "root", "Prabha@std3");
 			if( con==null ) {
